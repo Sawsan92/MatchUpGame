@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D192609E1AD103470008DE83 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D192609D1AD103470008DE83 /* SignUpViewController.m */; };
+		D19260A11AD10E7F0008DE83 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19260A01AD10E7F0008DE83 /* SignInViewController.m */; };
+		D19260A41AD10FAD0008DE83 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19260A31AD10FAD0008DE83 /* HomeViewController.m */; };
+		D19260A71AD1125F0008DE83 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19260A61AD1125F0008DE83 /* GameViewController.m */; };
+		D19260AD1AD114430008DE83 /* UsersRatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19260AC1AD114430008DE83 /* UsersRatesViewController.m */; };
+		D19260B01AD114C40008DE83 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19260AF1AD114C40008DE83 /* SettingsViewController.m */; };
 		D19A42F41ACA6E27003EE056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19A42F31ACA6E27003EE056 /* Foundation.framework */; };
 		D19A42F61ACA6E27003EE056 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19A42F51ACA6E27003EE056 /* CoreGraphics.framework */; };
 		D19A42F81ACA6E27003EE056 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19A42F71ACA6E27003EE056 /* UIKit.framework */; };
@@ -34,6 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D192609C1AD103470008DE83 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		D192609D1AD103470008DE83 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		D192609F1AD10E7F0008DE83 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		D19260A01AD10E7F0008DE83 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		D19260A21AD10FAD0008DE83 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		D19260A31AD10FAD0008DE83 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
+		D19260A51AD1125F0008DE83 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D19260A61AD1125F0008DE83 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D19260AB1AD114430008DE83 /* UsersRatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersRatesViewController.h; sourceTree = "<group>"; };
+		D19260AC1AD114430008DE83 /* UsersRatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersRatesViewController.m; sourceTree = "<group>"; };
+		D19260AE1AD114C40008DE83 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		D19260AF1AD114C40008DE83 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		D19A42F01ACA6E27003EE056 /* MatchUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19A42F31ACA6E27003EE056 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D19A42F51ACA6E27003EE056 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +137,18 @@
 				D19A43091ACA6E27003EE056 /* ViewController.m */,
 				D19A430B1ACA6E27003EE056 /* Images.xcassets */,
 				D19A42FA1ACA6E27003EE056 /* Supporting Files */,
+				D192609F1AD10E7F0008DE83 /* SignInViewController.h */,
+				D19260A01AD10E7F0008DE83 /* SignInViewController.m */,
+				D192609C1AD103470008DE83 /* SignUpViewController.h */,
+				D192609D1AD103470008DE83 /* SignUpViewController.m */,
+				D19260A21AD10FAD0008DE83 /* HomeViewController.h */,
+				D19260A31AD10FAD0008DE83 /* HomeViewController.m */,
+				D19260A51AD1125F0008DE83 /* GameViewController.h */,
+				D19260A61AD1125F0008DE83 /* GameViewController.m */,
+				D19260AB1AD114430008DE83 /* UsersRatesViewController.h */,
+				D19260AC1AD114430008DE83 /* UsersRatesViewController.m */,
+				D19260AE1AD114C40008DE83 /* SettingsViewController.h */,
+				D19260AF1AD114C40008DE83 /* SettingsViewController.m */,
 			);
 			path = MatchUp;
 			sourceTree = "<group>";
@@ -249,9 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19260A11AD10E7F0008DE83 /* SignInViewController.m in Sources */,
 				D19A430A1ACA6E27003EE056 /* ViewController.m in Sources */,
+				D19260A71AD1125F0008DE83 /* GameViewController.m in Sources */,
+				D19260B01AD114C40008DE83 /* SettingsViewController.m in Sources */,
 				D19A43041ACA6E27003EE056 /* AppDelegate.m in Sources */,
+				D192609E1AD103470008DE83 /* SignUpViewController.m in Sources */,
+				D19260AD1AD114430008DE83 /* UsersRatesViewController.m in Sources */,
 				D19A43001ACA6E27003EE056 /* main.m in Sources */,
+				D19260A41AD10FAD0008DE83 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +496,7 @@
 				D19A43241ACA6E29003EE056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D19A43251ACA6E29003EE056 /* Build configuration list for PBXNativeTarget "MatchUpTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +505,7 @@
 				D19A43271ACA6E29003EE056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
